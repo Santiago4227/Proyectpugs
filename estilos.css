@@ -1,0 +1,322 @@
+main{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+body {
+    /* Estilos para el modo oscuro */
+    background-color: #a5a4a4;
+    
+  }
+
+
+nav, footer{
+    background-color: black;
+    color: rgb(10, 10, 10);
+    text-align: center;
+    font-size: 45px;
+    height: 150px;
+} 
+
+nav,main,footer{
+margin-top: 50px;
+margin-bottom: 50px;
+background-image: url(https://static.vecteezy.com/system/resources/previews/001/838/299/large_2x/abstract-silver-metallic-join-lines-on-white-background-geometric-triangle-gradient-shape-pattern-luxury-style-vector.jpg);
+
+
+}
+footer{
+    font-size: 15px;
+}
+
+h1{
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-bottom: solid; 
+}
+
+
+p{
+    text-align: center;
+    margin-bottom: 15px;
+    text-decoration:solid;
+}
+
+
+img{
+    width: 500px;
+    height: 500px;
+    border-radius: 120px;
+    /*border; solid blue 15px;*/
+    margin: 20px 15px;
+   
+
+}
+
+a {
+    text-decoration: none;
+    margin-right: 20px; /* Espacio entre los enlaces */
+}   
+.button-link {
+    position: relative;
+    padding: 1em 1.8em;
+    outline: none;
+    border: 3px solid #ffffff;
+    background: #b0b0b0;
+    color: #000000;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 15px;
+    overflow: hidden;
+    transition: 0.2s;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .button-link:hover {
+    box-shadow: 0 0 30px #00ff37, 0 0 75px #001eff, 0 0 10000px #ae00ff;
+    transition-delay: 0s;
+  }
+  
+  .button-link span {
+    position: absolute;
+  }
+  
+  .button-link span:nth-child(1) {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #ae00ff);
+  }
+  
+  .button-link:hover span:nth-child(1) {
+    left: 100%;
+    transition: 0.7s;
+  }
+  
+  .button-link span:nth-child(3) {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #001eff);
+  }
+  
+  .button-link:hover span:nth-child(3) {
+    right: 100%;
+    transition: 0.7s;
+    transition-delay: 0.35s;
+  }
+  
+  .button-link span:nth-child(2) {
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #ae00ff);
+  }
+  
+  .button-link:hover span:nth-child(2) {
+    top: 100%;
+    transition: 0.7s;
+    transition-delay: 0.17s;
+  }
+  
+  .button-link span:nth-child(4) {
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #00ff1e);
+  }
+  
+  .button-link:hover span:nth-child(4) {
+    bottom: 100%;
+    transition: 0.7s;
+    transition-delay: 0.52s;
+  }
+  
+  .button-link:active {
+    background: #00af1d;
+    background: linear-gradient(to top right, #008faf, #00ffd9);
+    color: #bfbfbf;
+    box-shadow: 0 0 8px #002aff, 0 0 8px #00ddff, 0 0 8px #00ff2a;
+    transition: 0.1s;
+  }
+  
+  .button-link:active span:nth-child(1),
+  .button-link:active span:nth-child(2),
+  .button-link:active span:nth-child(3),
+  .button-link:active span:nth-child(4) {
+    transition: none;
+    transition-delay: none;
+  }
+
+  /* Interactividad */
+#contactenos.contactenos .contact-item:hover {
+    color: #ff00ff;
+  }
+  
+
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    padding: 8px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #8cb09b;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #00c8d3;
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: #00ffff;
+    box-shadow: 0 0 5px #00ffa2;
+  }
+
+
+  button.btn-shine {
+    position: relative;
+    margin: 0;
+    padding: 17px 35px;
+    outline: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: #fff;
+    border: 1px solid rgba(22, 76, 167, 0.6);
+    border-radius: 10px;
+    color: #1d89ff;
+    font-weight: 400;
+    font-family: inherit;
+    z-index: 0;
+    overflow: hidden;
+    transition: all 0.3s cubic-bezier(0.02, 0.01, 0.47, 1);
+  }
+  
+  button.btn-shine span {
+    color: #000000;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.7px;
+  }
+  
+  button.btn-shine:hover {
+    animation: rotate624 0.7s ease-in-out both;
+  }
+  
+  button.btn-shine:hover span {
+    animation: storm1261 0.7s ease-in-out both;
+    animation-delay: 0.06s;
+  }
+  
+  @keyframes rotate624 {
+    0% {
+      transform: rotate(0deg) translate3d(0, 0, 0);
+    }
+    25% {
+      transform: rotate(3deg) translate3d(0, 0, 0);
+    }
+    50% {
+      transform: rotate(-3deg) translate3d(0, 0, 0);
+    }
+    75% {
+      transform: rotate(1deg) translate3d(0, 0, 0);
+    }
+    100% {
+      transform: rotate(0deg) translate3d(0, 0, 0);
+    }
+  }
+  
+  @keyframes storm1261 {
+    0% {
+      transform: translate3d(0, 0, 0) translateZ(0);
+    }
+    25% {
+      transform: translate3d(4px, 0, 0) translateZ(0);
+    }
+    50% {
+      transform: translate3d(-3px, 0, 0) translateZ(0);
+    }
+    75% {
+      transform: translate3d(2px, 0, 0) translateZ(0);
+    }
+    100% {
+      transform: translate3d(0, 0, 0) translateZ(0);
+    }
+  }
+  
+  .btn-shine {
+    border: 1px solid;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .btn-shine span {
+    z-index: 20;
+  }
+  
+  .btn-shine:after {
+    background: #00b872;
+    content: "";
+    height: 155px;
+    left: -75px;
+    opacity: 0.4;
+    position: absolute;
+    top: -50px;
+    transform: rotate(35deg);
+    transition: all 550ms cubic-bezier(0.19, 1, 0.22, 1);
+    width: 50px;
+    z-index: -10;
+  }
+  
+  .btn-shine:hover:after {
+    left: 120%;
+    transition: all 550ms cubic-bezier(0.19, 1, 0.22, 1);
+  }
+  
+  
+
+  .input-label {
+    font-weight: bold;
+    font-size: 16px;
+    color: #000000;
+    margin-bottom: 5px;
+  }
+  
+  .input-field {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #000000;
+  }
+  
